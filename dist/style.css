@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 120px;
+}
+
+.sidebar a {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+}
+
+.sidebar a:hover {
+  background-color: #575757;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 30px;
+}
+
+span {
+  font-size: 25px;
+  padding: 10px 20px;    
+  cursor: pointer;
+}
+
+body {
+  margin: 20px;
+  line-height: 1.6;
+  font-family: 'Rubik', Arial, sans-serif;
+}
+
+#header {
+  margin-bottom: 20px;
+  font-size: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#header_2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+#description_1 {
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#synopsis {
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.background_header_1 {
+  margin-bottom: 1px;
+  background: #333333;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.background_header_2 {
+  margin-bottom: 1px;
+  background: #333333;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#image {
+  text-align: center;
+}
